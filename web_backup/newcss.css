@@ -1,0 +1,382 @@
+dy, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+body{
+	font-family: 微軟正黑體;
+}
+
+
+/*首頁*/
+.logo img{
+	margin-top: -150px;
+	height: 900px;
+	width: 100%;
+}
+
+
+
+.wrap_index{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.introduction{
+	margin: 0 auto;
+	padding: 0 7%;
+}
+
+.introduction h2{
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(42,183,202);
+	letter-spacing:5px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	margin-left: 3%;
+}
+
+.introduction p{
+	font-size: 20px;
+	line-height: 40px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.mbti_intro{
+	margin-top: 40px;
+	padding: 0 7%;
+}
+
+.mbti_intro h2{
+	margin-left: 3%;
+	color: rgb(42,183,202);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.yellowline{
+	margin-top: 5px;
+	height: 3px;
+	width: 100%;
+	background: rgb(254,215,102);
+	margin-bottom: 30px;
+}
+
+.mbti_intro p{
+	font-size: 20px;
+	line-height: 40px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mbti_intro ul{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+.mbti_intro ul li{
+	margin-top: 15px;
+}
+
+.uploadfile{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 45px;
+	margin-top: 45px;
+	border: 3px rgb(42,183,202) dashed;
+	width: 80%;
+	padding: 20px 0;
+}
+
+.uploadfile h2{
+	color: rgb(42,183,202);
+	font-size:36px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+.uploadfile input{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*主頁*/
+.backhome a{
+	position: fixed;
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	background: rgb(42,183,202);
+	margin-left: 3%;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.backhome a:hover{
+	background: rgb(75,150,165);
+}
+
+.wrap{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.trait{
+	width: 26%;
+	float: left;
+	background: rgb(42,183,202);
+	height: 600px;
+	box-shadow:2px 2px 2px 2px rgba(20%,20%,40%,0.3);
+	color: white;
+	position: fixed;
+}
+
+.line{
+	float: left;
+	height: 100%;
+	background: rgb(254,215,102);
+	width: 6px;
+	margin-left: 10%;
+}
+
+.trait_name{
+	margin-top: 30px;
+	margin-left: 20%;
+}
+
+.trait_name h2{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.trait_name p{
+	margin-top: 15px;
+	font-size: 60px;
+	color: white;
+	margin-left: 7%;
+	letter-spacing: 4px;
+}
+
+.suitable_job{
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.suitable_job h3{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.class_selection{
+	margin-top: 26px;
+}
+
+.class_selection select{
+	width: auto;
+	padding: 4% 4%;
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	border-radius: 10px;
+	background: #35414a;
+	border:none;
+	color: rgb(254,200,100);
+	text-align: center;
+	text-align-last: center;
+}
+
+.class_selection select option{
+	font-size: 16px;
+
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+.trait_description{
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.trait_description h3{
+	font-size: 22px;
+	font-weight: bold;
+	color: rgb(254,215,102)
+}
+
+.trait_description p{
+	border:2px solid;
+	border-radius: 5px;
+	padding: 2px 4px;
+	display: block;
+	height: 140px;
+	font-size: 16px;
+	margin-top: 20px;
+	width: 90%;
+	line-height: 26px;
+	overflow-y: scroll;
+}
+
+.link_place{
+	margin-top: 30px;
+	margin-left: 22%;
+}
+
+.link_place a{
+	font-size: 16px;
+	text-decoration: none;
+	background: rgb(254,106,106);
+	color: white;
+	margin-right: 20px;
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+.link_place a:hover{
+	box-shadow: 4px 4px 2px 2px rgba(20%,20%,40%,0.3);
+}
+
+/*job*/
+.job_recommend{
+	height: 600px;
+	padding: 10px 0 20px 40%;
+}
+
+.job_recommend h2{
+	background: rgb(254,106,106);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 15px;
+	color: white;
+	letter-spacing: 10px;
+}
+
+
+.job_recommend a{
+	text-decoration: none;
+	color: black;
+	box-shadow:2px 2px 2px 2px rgba(20%,20%,40%,0.3);
+	background: rgb(216,216,216);
+}
+
+.job_recommend ul{
+	margin-top: 20px;
+	font-size: 16px;
+	padding: 0 10px;
+}
+
+.job_recommend a:hover{
+	box-shadow: 8px 8px 2px 2px rgba(20%,20%,40%,0.3);
+}
+
+.job_recommend ul li{
+
+}
+
+.job_recommend ul li p{
+	margin-top: 10px;
+
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/*course*/
+.course_recommend{
+	height: 600px;
+	padding: 10px 0 20px 40%;
+
+}
+
+.course_recommend h2{
+	background: rgb(254,106,106);
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 15px;
+	color: white;
+	letter-spacing: 10px;
+}
+
+.course_recommend ul{
+	margin-top: 20px;
+	font-size: 16px;
+	padding: 5px 10px;
+	box-shadow:2px 2px 2px 2px rgba(20%,20%,40%,0.3);
+	background: rgb(216,216,216);
+}
+
+.course_recommend a:hover{
+	box-shadow: 8px 8px 2px 2px rgba(20%,20%,40%,0.3);
+}
+
+.course_recommend ul li{
+
+}
+
+.course_recommend ul li p{
+	margin-top: 10px;
+}
