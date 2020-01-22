@@ -4,3 +4,5 @@
 
 作品截圖
 ---
+![image](https://github.com/tingnli6603/Trait_JobCourse_Recommendation/blob/master/layout/job1.PNG)
+![image](https://github.com/tingnli6603/Trait_JobCourse_Recommendation/blob/master/layout/job2.PNG)
